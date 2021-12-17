@@ -1,0 +1,201 @@
+/* ---------------
+Fonts
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,900;1,400;1,600;1,700;1,900&display=swap');
+
+
+/* ---------------
+Global CSS
+-----------------*/
+:root {
+    --main-color: #7857fe;
+    --color-1: #e91e63;
+    --color-2: #f5ae10;
+    --color-3: #09d69c;
+    --bg-dark: #2b2c2f;
+    --main-to-dark-color: var(--main-color);
+    --dark-to-main-color: var(--bg-dark);
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0,1);
+    --shadow-black-300: 0 5px 15px rgba(0,0,0,0,3);
+    --black-900: #000000;
+    --black-400: #555555;
+    --black-100: #f7f7f7;
+    --black-000: #ffffff;
+    --black-alpha-100: rgba(0,0,0,0,05);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none!important;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+
+
+/* ---------------
+Navbar
+-----------------*/
+.navbar {
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+.nav-link {
+    font-size: 20px!important;
+    margin: 0 15px!important;
+}
+.navbar > .container {
+    padding: 15px 0;
+}
+.navbar .navbar-brand {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.navbar .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+}
+.nav-button {
+    width: 150px;
+}
+.btn-1 {
+    background-color: #ffffff!important;
+    padding: 12px 30px!important;
+    border: none!important;
+    border-radius: 5px!important;
+    color: #555555!important;
+    font-size: 16px!important;
+    text-transform: capitalize!important;
+    transform: all 0.5 ease!important;
+    box-shadow: var(--shadow-black-300)!important;
+    font-weight: 500!important;
+    margin-right: 10px;
+}
+.btn-contanct {
+    background-color: #555555!important;
+    padding: 12px 30px!important;
+    border: none!important;
+    border-radius: 5px!important;
+    color: #ffffff!important;
+    font-size: 16px!important;
+    text-transform: capitalize!important;
+    transform: all 0.5 ease!important;
+    box-shadow: var(--shadow-black-300)!important;
+    font-weight: 500!important;
+    margin-right: 10px;
+}
+.btn-gabung {
+    background-color: #8CBFFA; color:white;
+}
+.dropdown-item:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+/* ---------------
+Home
+-----------------*/
+.home {
+    min-height: 100;
+    padding: 150px 0;
+    background-color: #7857fe;
+}
+.home-second {
+    min-height: 100;
+    padding: 150px 0;
+    margin-top: 100px;
+    background-color: #7857fe;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.home-img {
+    max-width: 250px;
+    width: 100%;
+}
+.home-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+.home-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 40px;
+    color: var(--black-400);
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+.card {
+    border: none;
+    border-radius: 50px;
+    width: 18rem;
+}
+.card .card-body h2 {
+    font-weight: bold;
+    text-align: left;
+}
+.card .card-body p {
+    text-align: left;
+}
+
+/*
+    Back To Top Button
+*/
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: white;
+}
+
+
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e7e5e5; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 50px;
+  }
