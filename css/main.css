@@ -119,8 +119,16 @@ Home
     padding: 150px 0;
     margin-top: 100px;
     background-color: #7857fe;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
+    /* border-top-left-radius: 150px;
+    border-top-right-radius: 150px; */
+}
+.home-third {
+    min-height: 100;
+    padding: 150px 0;
+    margin-top: 0px;
+    background-color: white;
+    /* border-top-left-radius: 150px;
+    border-top-right-radius: 150px; */
 }
 .home-img {
     max-width: 250px;
@@ -161,6 +169,9 @@ Home
 }
 .card .card-body p {
     text-align: left;
+}
+.txt-ft {
+    color: white;
 }
 
 /*
